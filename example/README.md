@@ -16,11 +16,11 @@ in this demo files structure, so that the server.js code like this:
 ```js
 const { webpackConfig, webpackDevServer } = require('webpack-base-config');
 
-const baseConfig = {
+const Options = {
   entry: './src/index.js',  // entry file
   htmlTemplate: './src/index_template.html',  // the html template file
 };
 
-webpackDevServer(webpackConfig(baseConfig));
+webpackDevServer(webpackConfig(Options));
 
 ```
