@@ -1,6 +1,6 @@
 {
   "name": "webpack-base-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "the webpack base config",
   "main": "index.js",
   "dependencies": {
