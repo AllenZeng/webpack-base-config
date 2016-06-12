@@ -7,7 +7,7 @@ const defaultDomain = {
   port: 3000,
 };
 
-exports.WebpackDevServer = (webpackConfig = webpackConfig, domain = defaultDomain) => {
+module.exports = (webpackConfig = webpackConfig, domain = defaultDomain) => {
   return new WebpackDevServer(webpack(webpackConfig), {
     publicPath: webpackConfig.output.publicPath,
     hot: true,
@@ -16,6 +16,6 @@ exports.WebpackDevServer = (webpackConfig = webpackConfig, domain = defaultDomai
     if (err) {
       console.log(err);
     }
-    console.log(`Listening at ${config.domain}:${config.port} in mode: ${process.env.NODE_ENV}`);
+    console.log(`Listening at ${domain.domain}:${domain.port} in mode: ${process.env.NODE_ENV}`);
   });
 }
