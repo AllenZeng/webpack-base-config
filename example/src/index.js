@@ -1,7 +1,8 @@
-import ReactDOM from 'react-dom';
-import App from '../src/App';
+import React from 'react';
+import { render } from 'react-dom';
+import App from './App';
 
 const RootElement = document.createElement('div');
 document.body.appendChild(RootElement);
 
-ReactDOM.render(App, RootElement);
+render(<App />, RootElement);

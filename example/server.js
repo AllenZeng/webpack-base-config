@@ -1,10 +1,8 @@
-const { webpackConfig, webpackDevServer } = require('webpack-base-config');
+const { webpackConfig, webpackDevServer } = require('../index.js');
 
 const baseConfig = {
   entry: './src/index.js',
   htmlTemplate: './src/index_template.html',
 };
 
-const config = webpackConfig(baseConfig);
-
-webpackDevServer(config);
+webpackDevServer(webpackConfig(baseConfig));
