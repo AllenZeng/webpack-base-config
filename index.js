@@ -1,2 +1,2 @@
-export const webpackConfig = require('../src/webpack.config');
-export const webpackDevServer = require('../src/webpack.dev.server');
+export const webpackConfig = require('../lib/webpack.config');
+export const webpackDevServer = require('../lib/webpack.dev.server');

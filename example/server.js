@@ -1,5 +1,4 @@
-const webpackConfig = require('../src/webpack.config');
-const webpackDevServer = require('../src/webpack.dev.server');
+const { webpackConfig, webpackDevServer } = require('webpack-base-config');
 
 const baseConfig = {
   entry: './src/index.js',
