@@ -17,7 +17,7 @@ const { webpackConfig, webpackDevServer } = require('webpack-base-config');
 webpackDevServer(webpackConfig(Options));
 ```
 
-In order to ensure the Babel compilation, you need to create .babelrc file in your root directory
+In order to ensure the Babel compilation, you need to create `.babelrc` file in your root directory
 
 ```json
 {

@@ -9,7 +9,7 @@
 
 ```
 
-in this demo files structure, so that the server.js code like this:
+in this demo files structure, so that the `server.js` code like this:
 
 ### server.js
 
