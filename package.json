@@ -32,6 +32,7 @@
     "url": "git+https://github.com/AllenZeng/webpack-base-config.git"
   },
   "keywords": [
+    "react",
     "webpack",
     "webpack-dev-server"
   ],
