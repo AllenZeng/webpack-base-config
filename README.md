@@ -17,6 +17,16 @@ const { webpackConfig, webpackDevServer } = require('webpack-base-config');
 webpackDevServer(webpackConfig(Options));
 ```
 
+In order to ensure the Babel compilation, you need to create .babelrc file in your root directory
+
+```json
+{
+  "presets": ["es2015", "stage-0", "react"],
+  "plugins": ["transform-runtime"],
+}
+
+```
+
 ## Options
 the options is a object, and the value like this:
 
