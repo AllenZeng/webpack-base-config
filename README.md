@@ -9,7 +9,7 @@ npm install webpack-base-config --save-dev
 
 ## Usage
 
-in root directory of your project create new js file and write following code:
+in root directory of your project create new js file(e.g: `server.js`) and write following code:
 
 ```js
 const { webpackConfig, webpackDevServer } = require('webpack-base-config');
@@ -36,6 +36,8 @@ const Options = {
   htmlTemplate: './src/index_template.html', // your html template file
 };
 ```
+
+so, use `node server.js` to start the local server
 
 ## Demo
 
