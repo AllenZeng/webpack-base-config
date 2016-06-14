@@ -24,3 +24,5 @@ const Options = {
 webpackDevServer(webpackConfig(Options));
 
 ```
+
+so, use `node server.js` to start the local server
