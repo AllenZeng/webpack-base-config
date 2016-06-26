@@ -40,7 +40,7 @@ const Options = {
 };
 ```
 
-so, use `node server.js` to start the local server
+so, use `node server.js` to start the local server in `localhost: 3000`
 
 ## Demo
 

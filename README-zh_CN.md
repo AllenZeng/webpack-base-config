@@ -36,7 +36,7 @@ const Options = {
 };
 ```
 
-在项目开发时，使用`node server.js`启动开发环境
+在项目开发时，使用`node server.js`启动开发环境，浏览器访问`localhost:3000`
 
 ## Demo
 
