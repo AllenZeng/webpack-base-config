@@ -1,5 +1,6 @@
 # webpack-base-config
-the webpack base config of react develop environment
+the webpack base config of react develop environment<br>
+使用webpack、webpack-dev-server快速搭建react开发环境
 
 [中文文档](https://github.com/AllenZeng/webpack-base-config/blob/master/README-zh_CN.md)
 
