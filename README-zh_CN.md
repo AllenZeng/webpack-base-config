@@ -1,5 +1,5 @@
 # webpack-base-config
-the webpack base config of react develop environment
+使用webpack、webpack-dev-server快速搭建react开发环境
 
 ## 安装
 
