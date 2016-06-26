@@ -1,6 +1,8 @@
 # webpack-base-config
 the webpack base config of react develop environment
 
+[中文文档](https://github.com/AllenZeng/webpack-base-config/blob/master/README-zh_CN.md)
+
 ## Install
 
 ```bash
